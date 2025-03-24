@@ -1,7 +1,7 @@
 import React from "react";
 
 const blogDetails = ({ params }) => {
-    console.log(params);
+  
   const blogs = [
     {
       key: "tech_ai_revolution",

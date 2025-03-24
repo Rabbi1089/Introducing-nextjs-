@@ -31,11 +31,23 @@ const NavBar = () => {
       title: "blog",
       path: "/blog",
     },
+    {
+      title: "Category",
+      path: "/category",
+    },
+    {
+      title: "dashboard",
+      path: "/dashboard",
+    },
   ];
 
   const handler = () => {
     router.push("/login");
   };
+
+  if (pathName.includes("dashboard"))
+    return <div className=" bg-amber-600">I am from dashboard layout</div>;
+  console.log(pathName);
 
   return (
     <div className="flex">
