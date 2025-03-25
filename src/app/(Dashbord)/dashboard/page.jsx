@@ -1,7 +1,6 @@
 import React from 'react';
 
 const page = () => {
-    console.log(object);
     return (
         <div>
             this is dashboard
